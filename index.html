@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><h1>My Shop</h1></div>
+      <button class="cart-icon">
+        <span class="cart">Cart</span>
+        <span class="cart-quantity">(0)</span>
+      </button>
+    </nav>
+    <div class="products" id="products">
+      <!-- Example product card -->
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1506544777-64cfbe1142df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3QlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D"  />
+        <h2>Shoes</h2>
+        <p>Price: $100</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdCUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D" />
+        <h2>Fashion</h2>
+        <p>Price: $200</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1627163439097-373d08b797d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fHByb2R1Y3QlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D" />
+        <h2>Toys</h2>
+        <p>Price: $300</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1646182117083-eece2b597f96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fHByb2R1Y3QlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D" />
+        <h2>Photography</h2>
+        <p>Price: $400</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1697659624645-e88b5e4aeb2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHByb2R1Y3RvcyUyMGNvc21ldGljb3N8ZW58MHx8MHx8fDA%3D" />
+        <h2>Fashion</h2>
+        <p>Price: $500</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1595521969746-7d87f7480fc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHByb2R1Y3RvcyUyMGNvc21ldGljb3N8ZW58MHx8MHx8fDA%3D" />
+        <h2>eauty Care</h2>
+        <p>Price: $600</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+    <div class="cart-popup">
+      <h2>Your Cart</h2>
+      <ul class="cart-items">
+        <!-- Cart items will be added here dynamically -->
+      </ul>
+      <div class="cart-total">
+        <h3>Total: $<span>0</swpan></h3>
+      </div>
+      <button class="close-cart">Close</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
